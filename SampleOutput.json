@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": "news24",
+                "name": "News24"
+            },
+            "author": "Compiled by Craig Taylor",
+            "title": "Brevis' heroics not enough as SA U19s crash out of Cricket World Cup",
+            "description": "Despite a fine innings by Dewald Brevis, South Africa has crashed out of the U19 Cricket World Cup after they were thrashed by England in the quarter-finals.",
+            "url": "https://www.news24.com/sport/Cricket/Proteas/brevis-heroics-not-enough-as-sa-u19s-crash-out-of-cricket-world-cup-20220126",
+            "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/476/173581e0e595474faaec53214cbd1855.jpg",
+            "publishedAt": "2022-01-26T20:36:29+00:00",
+            "content": "Despite a fine innings by Dewald Brevis, South Africa has crashed out of the U19 Cricket World Cup after they were thrashed by 6 wickets in a quarter-final clash against England.\r\nBrevis (97) was the… [+1096 chars]"
+        },
+        {
+            "source": {
+                "id": "four-four-two",
+                "name": "FourFourTwo"
+            },
+            "author": "PA Staff",
+            "title": "Kick It Out to venture into more sports after announcing ECB partnership",
+            "description": "Kick It Out’s new partnership with the England and Wales Cricket Board is set to be the first of more ventures by the organisation into different sports.",
+            "url": "https://www.fourfourtwo.com/news/kick-it-out-to-venture-into-more-sports-after-announcing-ecb-partnership-1643212881000",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/znxAUCCwju6zQvHaZWARjH-1200-80.jpg",
+            "publishedAt": "2022-01-26T16:01:21Z",
+            "content": "Kick It Out’s new partnership with the England and Wales Cricket Board is set to be the first of more ventures by the organisation into different sports.\r\nThe anti-discrimination group have spent the… [+4292 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
