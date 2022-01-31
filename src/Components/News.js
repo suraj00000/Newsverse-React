@@ -7,8 +7,8 @@ import InfiniteScroll from "react-infinite-scroll-component";
 
 const News = (props) => {
   const [articles, setArticles] = useState([]);
-  const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
   const capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -30,20 +30,15 @@ const News = (props) => {
     props.setProgress(100);
   }
   useEffect(() => {
-    updateNews();
-  });
+    document.title = `${capitalizeFirstLetter(props.category)}  - Newsverse`;
 
-  const handlePreviouseClick = async () => {
-    setPage(page - 1);
     updateNews();
-  }
-  const handleNextClick = async () => {
-    setPage(page + 1);
-    updateNews();
-  }
+    // eslint-disable-next-line
+  },[]);  
+
   const fetchMoreData = async () => {
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`;
     setPage(page + 1);
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
     let data = await fetch(url);
     let pasrsedData = await data.json();
     setArticles(articles.concat(pasrsedData.articles));
@@ -53,8 +48,8 @@ const News = (props) => {
 
 
 
-  return <>
-    <h2 className='text-center'>Top {capitalizeFirstLetter(props.category)} Headlines</h2>
+  return (<>
+    <h2 className='text-center' style={{margin:'35px 0px',marginTop:'90px'}}>Top {capitalizeFirstLetter(props.category)} Headlines</h2>
     {loading && <Spinner />}
     <InfiniteScroll
       dataLength={articles.length}
@@ -73,7 +68,8 @@ const News = (props) => {
       </div>
     </InfiniteScroll>
 
-  </>;
+  </>
+  )
 }
 News.defaultProps = {
   country: 'in',
